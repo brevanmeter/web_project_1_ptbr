@@ -1,17 +1,19 @@
 .khan__buy-link {
-    line-height: 42px;
-    font-size: 30px;
-    text-decoration: none;
-    color: #2F80ED;
-    margin-left: 48px;
-    transition: opacity .2s linear;
-  }
-  
-  .khan__buy-link:hover {
-    opacity: .6;
-  }
+  line-height: 42px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #2F80ED;
+  margin-left: 48px;
+  transition: opacity .2s linear;
+}
 
-  .khan__buy-link:visited, .khan__buy-link:active, .khan__buy-link a{
-    color: #2F80ED;
-    text-decoration: none;  
-  }
+.khan__buy-link:hover {
+  opacity: .6;
+}
+
+.khan__buy-link:visited,
+.khan__buy-link:active,
+.khan__buy-link a {
+  color: #2F80ED;
+  text-decoration: none;
+}

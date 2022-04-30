@@ -8,7 +8,9 @@
   opacity: 0.5;
 }
 
-.header__link-link:visited, .header__link-link:active, .header__link-link a{
+.header__link-link:visited,
+.header__link-link:active,
+.header__link-link a {
   color: #2F80ED;
-  text-decoration: none;  
+  text-decoration: none;
 }

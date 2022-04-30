@@ -9,13 +9,14 @@
     text-decoration: none;
     transition: opacity 1s linear 0s;
   }
-  
+
   .feynman__link-link:hover {
     opacity: 0.5;
   }
-  
-  .feynman__link-link:visited, .feynman__link-link:active, .feynman__link-link a{
-    color: #2F80ED;
-    text-decoration: none;  
-  }
 
+  .feynman__link-link:visited,
+  .feynman__link-link:active,
+  .feynman__link-link a {
+    color: #2F80ED;
+    text-decoration: none;
+  }
