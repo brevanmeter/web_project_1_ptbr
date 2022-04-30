@@ -8,18 +8,14 @@
   <link href="./pages/index.css" rel="stylesheet">
   <title>Aprendendo a aprender</title>
 </head>
+
 <body>
   <div class="page">
     <header class="header">
-      <img src="./images/logo_place_header.png" class="logo_place_header" alt="Practicum Logo">
+      <img src="./images/logo_place_header.png" class="logo logo_place_header" alt="Practicum Logo">
       <h1 class="header__title">Aprendendo a aprender</h1>
-      <h2 class="header__subtitle">As técnicas de aprendizado mais eficazes que você pode aplicar ao seu cotidiano.
-        <a class="header__link-link" href="https://www.napratica.org.br/aprenda-rapido-com-tecnica-feynman/">Saiba Mais→</a>
-      </h2>
-      <!-- Julia, tentei fazer o que voce me pediu com o <p> ou e <span> mas quando roda no Validator de HTML ele acusa que nao pode
-        ter uma tag p dentro de um h2 nesse conceito. Tentei falar com outros colegas que tambem tiveram o mesmo problema mas nao
-      consegui arrumar uma solucao. Voce menciona para posicionar com Flexbox mas no brief fala que essa parte deve ser feito
-    com position absolute. Estou confusa, se puder ajuda agradeco. Obrigada. --> 
+      <p class="header__subtitle">As técnicas de aprendizado mais eficazes que você pode aplicar ao seu cotidiano.<a
+          href="https://www.napratica.org.br/aprenda-rapido-com-tecnica-feynman/" class="header__link-link"> Saiba Mais →</a></p>
       <img src="./images/header-image.png" class="header__main-illustration" alt="Homem no topo da montanha.">
       <div class="header__square"></div>
     </header>
@@ -84,10 +80,8 @@
         <h2 class="section-title">Conversas TED</h2>
         <h3 class="section-subtitle">Para os amantes da procrastinação</h3>
         <div class="video__iframes">
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen width= 515
-          height= 316></iframe>
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen width= 515
-          height= 316></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
         </div>
       </section>
       <section class="oakley">
@@ -174,11 +168,9 @@
           <p class="khan__quote-author">George Lucas</p>
           <p class="khan__quote-author-subline">Diretor</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic">
-              <img src="./images/khan-book-2.png" class="khan__book-pic" alt="Livro">
-            </div>
-            <a href="https://www.amazon.com/One-World-Schoolhouse-Education-Reimagined/dp/1455508373"
-              class="khan__buy-link">Comprar →</a>
+            <img src="./images/khan-book-2.png" class="khan__book-pic" alt="Livro">
+            <p class="khan__buy-link"><a
+                href="https://www.amazon.com/One-World-Schoolhouse-Education-Reimagined/dp/1455508373">Comprar →</a></p>
           </div>
         </div>
       </section>
@@ -232,7 +224,7 @@
       <section class="resources">
         <h2 class="section-title">Recursos úteis</h2>
         <h3 class="section-subtitle">Material adicional sobre técnicas e hacks de aprendizagem.</h3>
-        <div class="resources__logo-zone">
+        <nav class="resources__logo-zone">
           <a href="https://www.ted.com/talks" class="resources__logo"><img src="./images/logo/resources-tedED.png"
               alt="TED logo"></a>
           <a href="https://medium.com/" class="resources__logo"><img src="./images/logo/resources-Medium.png"
@@ -241,13 +233,13 @@
               alt="Deezen logo"></a>
           <a href="https://www.goodreads.com/" class="resources__logo"><img src="./images/logo/resources-goodreads.png"
               alt="Goodreads logo"></a>
-        </div>
+          </nav>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img src="./images/logo__place_footer.png" class="logo logo__place_footer" alt="Yandex Logo">
+          <img src="./images/logo__place_footer.png" class="logo logo_place_footer" alt="Yandex Logo">
           <p class="footer__author">© 2022 Barbara Revuelta</p>
         </div>
         <nav class="footer__column footer__column_content_about">

@@ -1,5 +1,6 @@
-Nome do projeto: Aprendendo a Aprender 
+Nome do Projeto: Aprendendo a Aprender - Sprint 2 - Practicum by Yandex.
 
-Projeto do Segundo Sprint, utilizando HTML, CSS.
+Projeto utilizando HTML semântico, estilos em CSS puro e com animações. Aplicado a estrutura de organização Nested BEM.
 
-# web_project_1-2_ptbr
+Página única, com o assunto "Maneiras de Aprender" explicando diversas técnicas diferentes e interessantes.
+

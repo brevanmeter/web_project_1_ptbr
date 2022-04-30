@@ -1,17 +1,9 @@
 .khan__quote {
     line-height: 34px;
     font-size: 24px;
-    margin: 55px 0 0;
+    margin: 50px 0 0;
     width: 790px;
   }
 
-  .khan__quote-author {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 36px 0 0;
-  }
 
-  .khan__quote-author-subline {
-    font-size: 24px;
-    margin: 10px 0 0;
-  }
+  

@@ -3,10 +3,15 @@
     font-size: 30px;
     text-decoration: none;
     color: #2F80ED;
-    margin-left: 20px;
+    margin-left: 48px;
     transition: opacity .2s linear;
   }
   
   .khan__buy-link:hover {
     opacity: .6;
+  }
+
+  .khan__buy-link:visited, .khan__buy-link:active, .khan__buy-link a{
+    color: #2F80ED;
+    text-decoration: none;  
   }
