@@ -12,7 +12,6 @@
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square/header__square.css);
 
-
 @import url(../blocks/description/description.css);
 
 @import url(../blocks/two-columns/two-columns.css);
@@ -45,7 +44,6 @@
 @import url(../blocks/feynman/__subtitle/feynman-subtitle.css);
 @import url(../blocks/feynman/__image/feynman__image.css);
 @import url(../blocks/feynman/__link/feynman__link-link.css);
-
 
 @import url(../blocks/digits/digits.css);
 
