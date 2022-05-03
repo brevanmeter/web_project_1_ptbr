@@ -1,5 +1,7 @@
 @import url(..vendor/normalize.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/rotation/rotation.css);
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -43,7 +45,7 @@
 @import url(../blocks/feynman/__title/feynmam-title.css);
 @import url(../blocks/feynman/__subtitle/feynman-subtitle.css);
 @import url(../blocks/feynman/__image/feynman__image.css);
-@import url(../blocks/feynman/__link/feynman__link-link.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
 
 @import url(../blocks/digits/digits.css);
 

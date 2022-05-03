@@ -1,7 +1,7 @@
 .cards {
-  flex-wrap: wrap;
   display: flex;
-  align-content: center;
-  justify-content: center;
-
+  flex-wrap: wrap;
+  row-gap: 60px;
+  column-gap: 100px;
+  width: 80%;
 }

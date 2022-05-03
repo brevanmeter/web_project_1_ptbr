@@ -1,8 +1,4 @@
 .cards__item {
-  width: 240px;
+  max-width: 240px;
   list-style: none;
-  margin-bottom: 60px;
-  margin-right: 100px;
-  display: flex;
-  flex-direction: column;
 }
